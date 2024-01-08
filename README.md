@@ -19,15 +19,15 @@
 3. Filter the data using jupyter notebook. Implement the data model diagram using the python code and test it in notebook.
 4. Upload the dataset to 'Google Cloud Storage'. Create new VM and SSH into it.
    Run following command in linux terminal
-   a. sudo apt-get update -y
-   b. sudo apt-get install python3-distutils
-   c. sudo apt-get install wget
-   d. wget https://bootstrap.pypa.io/get-pip.py
-   e. sudo python2 get-pip.py
-   f. pip3 install mage-ai
-   g. pip3 install google-cloud
-   h. pip3 install google-cloud-bigquery
-   i. pip3 install pandas
+   a. sudo apt-get update -y \n
+   b. sudo apt-get install python3-distutils \n
+   c. sudo apt-get install wget \n
+   d. wget https://bootstrap.pypa.io/get-pip.py \n
+   e. sudo python2 get-pip.py \n
+   f. pip3 install mage-ai \n
+   g. pip3 install google-cloud \n
+   h. pip3 install google-cloud-bigquery \n
+   i. pip3 install pandas \n
 5. run command mage start [project-name] to start mage project.
 6. Create Data_loader,Data transformer and Data_Exporter objects and create a pipeline. The pipeline will load any new dataset available from Google Cloud Storage, apply transformation and create required tools in Google BigQuery Analytics Engine.
 7. We can perform various analytical operations on these datasets.
