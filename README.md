@@ -18,7 +18,7 @@
 2. Create date model on draw.io. Create Facts and Dimension tables and define relationship between them.
 3. Filter the data using jupyter notebook. Implement the data model diagram using the python code and test it in notebook.
 4. Upload the dataset to 'Google Cloud Storage'. Create new VM and SSH into it.
-   Run following command in linux terminal
+   Run following command in linux terminal <br>
    a. sudo apt-get update -y <br>
    b. sudo apt-get install python3-distutils <br>
    c. sudo apt-get install wget <br>
